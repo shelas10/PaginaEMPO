@@ -26,7 +26,7 @@
 		integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="style.css">
-
+	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body id="top">
@@ -90,6 +90,16 @@
 			</div>
 		</section>
 
+
+
+
+
+
+
+
+
+
+
 		<section id="portfolio">
 			<div class="container">
 				<div class="row">
@@ -112,75 +122,65 @@
 							<div class="recent-work-pic">
 								<ul id="mixed-items">
 									<li class="mix category-2 col-md-4 col-xs-6" data-my-order="1">
-										<a class="example-image-link" href="img/pc.jpg" data-lightbox="example-set">
-											<img class="img-responsive" src="img/pc.jpg"
-												style="width: 350px; height: 280px; border-style:solid;border-width:1px;"
-												alt="">
-											<div class="overlay">
-												<h3>Contamos con una extensa variedad de equipos de cómputo</h3>
-												<i class="ion-ios-plus-empty"></i>
-											</div>
+										<!--<a class="example-image-link" href="img/pc.jpg" data-lightbox="example-set">-->
+										<a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1"></a>
+										<img class="img-responsive" src="img/pc.jpg"
+											style="width: 350px; height: 280px; border-style:solid;border-width:1px;"
+											alt="">
+										<div class="overlay" onclick="M1()" ;>
+											<h3></h3>
+											<i class="ion-ios-plus-empty"></i>
+										</div>
 										</a>
 									</li>
 									<li class="mix category-2 col-md-4 col-xs-6" data-my-order="2">
-										<a class="example-image-link" href="img/redes.png" data-lightbox="example-set">
-											<img class="img-responsive" src="img/redes.png"
-												style="width: 350px; height: 280px; " alt="">
-											<div class="overlay">
-												<h3>Creamos y supervisamos redes de alta calidad con el mayor
-													profesionalismo que nos caracteriza</h3>
-												<i class="ion-ios-plus-empty"></i>
-											</div>
+
+										<img class="img-responsive" src="img/redes.png"
+											style="width: 350px; height: 280px; " alt="">
+										<div class="overlay" onclick="M2()">
+											<h3></h3>
+											<i class="ion-ios-plus-empty"></i>
+										</div>
 										</a>
 									</li>
 									<li class="mix category-2  col-md-4 col-xs-6" data-my-order="3">
-										<a class="example-image-link" href="img/datac.jpg" data-lightbox="example-set">
-											<img class="img-responsive" style="width: 350px; height: 280px; "
-												src="img/datac.jpg" alt="">
-											<div class="overlay">
-												<h3>Contamos con los mejores Data Center de alta tecnología</h3>
-												<i class="ion-ios-plus-empty"></i>
-											</div>
+
+										<img class="img-responsive" style="width: 350px; height: 280px; "
+											src="img/datac.jpg" alt="">
+										<div class="overlay" onclick="M3()">
+											<h3></h3>
+											<i class="ion-ios-plus-empty"></i>
+										</div>
 										</a>
 									</li>
 									<li class="mix category-2 col-md-4 col-xs-6" data-my-order="4">
-										<a class="example-image-link" href="img/camaras.png"
-											data-lightbox="example-set">
-											<img class="img-responsive" style="width: 350px; height: 280px; "
-												src="img/camaras.png" alt="">
-											<div class="overlay">
-												<h3>Tenemos todo para tu circuito cerrado con tecnología de la mas alta
-													calidad.</h3>
-												<i class="ion-ios-plus-empty"></i>
-											</div>
+
+										<img class="img-responsive" style="width: 350px; height: 280px; "
+											src="img/camaras.png" alt="">
+										<div class="overlay" onclick="M4()">
+											<h3></h3>
+											<i class="ion-ios-plus-empty"></i>
+										</div>
 										</a>
 									</li>
 									<li class="mix category-1 col-md-4 col-xs-6" data-my-order="5">
-										<a class="example-image-link" href="img/papeleria.jpg"
-											data-lightbox="example-set">
-											<img class="img-responsive" style="width: 350px; height: 280px; "
-												src="img/papeleria.jpg" alt="">
-											<div class="overlay">
-												<h3>
-													Papelería e insumos
-													Las mejores marcas y modelos en impresoras, multifuncionales, además
-													accesorios y consumibles</h3>
-												<i class="ion-ios-plus-empty"></i>
-											</div>
+
+										<img class="img-responsive" style="width: 350px; height: 280px; "
+											src="img/papeleria.jpg" alt="">
+										<div class="overlay" onclick="M5()">
+											<h3></h3>
+											<i class="ion-ios-plus-empty"></i>
+										</div>
 										</a>
 									</li>
 									<li class="mix category-3 col-md-4 col-xs-6" data-my-order="6">
-										<a class="example-image-link" href="img/ferreteria.jpg"
-											data-lightbox="example-set">
-											<img class="img-responsive" style="width: 350px; height: 280px; "
-												src="img/ferreteria.jpg" alt="">
-											<div class="overlay">
-												<h3>
-													Ferretería
-													Además contamos con productos de ferretería con las mejores marcas
-													del mercado</h3>
-												<i class="ion-ios-plus-empty"></i>
-											</div>
+
+										<img class="img-responsive" style="width: 350px; height: 280px; "
+											src="img/ferreteria.jpg" alt="">
+										<div class="overlay" onclick="M6()">
+											<h3></h3>
+											<i class="ion-ios-plus-empty"></i>
+										</div>
 										</a>
 									</li>
 								</ul>
@@ -797,8 +797,246 @@
 		<i class="fa fa-whatsapp my-float"></i>
 	</a>
 
+
+
+	<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body" style="margin-left: 70px;">
+
+								<!-- Project details-->
+								<h2 class="text-uppercase">Equipo de Cómputo</h2>
+
+								<img class="img-fluid d-block mx-auto" style="width: 380px; height: 320px; "
+									src="img/pc.jpg" alt="..." />
+								<p>Contamos con una extensa variedad de equipos de cómputo</p>
+
+								<button style="margin-left: 105px;" onclick="m1c()"
+									class="btn btn-primary text-uppercase" data-bs-dismiss="modal" type="button">
+									<i class="fas fa-xmark me-1"></i>
+									cerrar
+								</button>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body" style="margin-left: 70px;">
+
+								<!-- Project details-->
+								<h2 class="text-uppercase">
+									Redes</h2>
+
+								<img class="img-fluid d-block mx-auto" style="width: 380px; height: 320px; "
+									src="img/redes.png" alt="..." />
+								<p>Creamos y supervisamos redes de alta calidad con el mayor<br> profesionalismo que nos
+									caracteriza</p>
+
+								<button style="margin-left: 105px;" onclick="m2c()"
+									class="btn btn-primary text-uppercase" data-bs-dismiss="modal" type="button">
+									<i class="fas fa-xmark me-1"></i>
+									cerrar
+								</button>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body" style="margin-left: 70px;">
+
+								<!-- Project details-->
+								<h2 class="text-uppercase">
+									Centro de datos</h2>
+
+								<img class="img-fluid d-block mx-auto" style="width: 380px; height: 320px; "
+									src="img/datac.jpg" alt="..." />
+								<p>Contamos con los mejores Data Center de alta tecnología</p>
+
+
+
+
+
+
+
+								<button style="margin-left: 105px;" onclick="m3c()"
+									class="btn btn-primary text-uppercase" data-bs-dismiss="modal" type="button">
+									<i class="fas fa-xmark me-1"></i>
+									cerrar
+								</button>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body" style="margin-left: 70px;">
+
+								<!-- Project details-->
+								<h2 class="text-uppercase">
+									circuito Cerrado</h2>
+
+								<img class="img-fluid d-block mx-auto" style="width: 380px; height: 320px; "
+									src="img/camaras.png" alt="..." />
+								<p>
+									Tenemos todo para tu circuito cerrado con tecnología de la mas alta
+									calidad.</p>
+
+
+
+
+
+
+
+								<button style="margin-left: 105px;" onclick="m4c()"
+									class="btn btn-primary text-uppercase" data-bs-dismiss="modal" type="button">
+									<i class="fas fa-xmark me-1"></i>
+									cerrar
+								</button>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body" style="margin-left: 70px;">
+
+								<!-- Project details-->
+								<h2 class="text-uppercase">
+									Papelería e insumos</h2>
+
+								<img class="img-fluid d-block mx-auto" style="width: 380px; height: 320px; "
+									src="img/papeleria.jpg" alt="..." />
+								<p>
+									Las mejores marcas y modelos en impresoras, multifuncionales, <br>además accesorios
+									y
+									consumibles</p>
+
+
+
+
+
+
+
+								<button style="margin-left: 105px;" onclick="m5c()"
+									class="btn btn-primary text-uppercase" data-bs-dismiss="modal" type="button">
+									<i class="fas fa-xmark me-1"></i>
+									cerrar
+								</button>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body" style="margin-left: 70px;">
+
+								<!-- Project details-->
+								<h2 class="text-uppercase">
+									Ferretería</h2>
+
+								<img class="img-fluid d-block mx-auto" style="width: 380px; height: 320px; "
+									src="img/ferreteria.jpg" alt="..." />
+								<p>
+									Además contamos con productos de ferretería con las mejores<br> marcas del mercado
+								</p>
+
+
+
+
+
+
+
+								<button style="margin-left: 105px;" onclick="m6c()"
+									class="btn btn-primary text-uppercase" data-bs-dismiss="modal" type="button">
+									<i class="fas fa-xmark me-1"></i>
+									cerrar
+								</button>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
 	<!-- load Js -->
 	<script src="js/jquery-1.11.3.min.js"></script>
+
 	<script src="js/bootstrap.min.js"></script>
 	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&amp;sensor=false">
 	</script>
@@ -813,6 +1051,103 @@
 	<script src="js/jquery.sticky.js"></script>
 	<script src="js/jquery.nav.js"></script>
 	<script src="js/main.js"></script>
+
+	<script>
+		function M1() {
+			$('#portfolioModal1').modal('show');
+
+		}
+	</script>
+
+	<script>
+		function m1c() {
+			$('#portfolioModal1').modal('hide');
+
+		}
+	</script>
+
+	<script>
+		function M2() {
+			$('#portfolioModal2').modal('show');
+
+		}
+	</script>
+
+	<script>
+		function m2c() {
+			$('#portfolioModal2').modal('hide');
+
+		}
+	</script>
+
+
+
+
+
+
+	<script>
+		function M3() {
+			$('#portfolioModal3').modal('show');
+
+		}
+	</script>
+
+	<script>
+		function m3c() {
+			$('#portfolioModal3').modal('hide');
+
+		}
+	</script>
+
+
+
+
+
+	<script>
+		function M4() {
+			$('#portfolioModal4').modal('show');
+
+		}
+	</script>
+
+	<script>
+		function m4c() {
+			$('#portfolioModal4').modal('hide');
+
+		}
+	</script>
+
+
+
+	<script>
+		function M5() {
+			$('#portfolioModal5').modal('show');
+
+		}
+	</script>
+
+	<script>
+		function m5c() {
+			$('#portfolioModal5').modal('hide');
+
+		}
+	</script>
+
+
+	<script>
+		function M6() {
+			$('#portfolioModal6').modal('show');
+
+		}
+	</script>
+
+	<script>
+		function m6c() {
+			$('#portfolioModal6').modal('hide');
+
+		}
+	</script>
+
 </body>
 
 </html>
